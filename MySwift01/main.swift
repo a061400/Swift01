@@ -43,3 +43,64 @@ if rand2 >= 90 {
     print("down")
 }
 
+var str1:String? = "Sunni"
+if str1 == "Sunni"{
+print("OK")
+}else{
+    print("XX")
+}
+
+print(str1 as Any)
+str1 = nil
+print(str1 ?? 0) //預設值
+
+var str2:String = "III"
+//str2 = nil
+
+var sum = 0
+for i in 1...100{
+    sum += i
+    
+}
+
+print(sum)
+
+
+
+var j = 1
+j += 1  //j++已不能使用
+print(j)
+
+
+
+
+var (x, y, z) = (1,"Sunni",true)
+print(x,y,z)
+
+
+var  Var8 = "123"
+var Var9:Int? = Int(Var8)
+print(Var9 ?? 0)
+
+print("Input a number :", terminator:"")
+
+var n1:String? = readLine()
+var n2:Int? = Int(n1!)
+var sum2 = 0
+for i in 1...n2! {
+    sum2 += i
+}
+
+print(sum2)
+
+var i1:Int? = 1 //Int
+var i2:Int = 10
+for ii in i1!...i2
+{
+    print("OK")
+}
+
+for _ in 1 ... 5 {
+    print("III")
+}
+
